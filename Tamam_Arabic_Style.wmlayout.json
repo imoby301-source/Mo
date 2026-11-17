@@ -1,0 +1,171 @@
+{
+  "format": "wmkeyboard-layout",
+  "version": 1,
+  "layout": {
+    "id": "tamam-arabic-inspired",
+    "name": "Tamam Arabic style",
+    "langId": "ar",
+    "tabletExpand": false,
+    "layers": {
+      "letters": {
+        "rows": [
+          [
+            {
+              "label": "ض"
+            },
+            {
+              "label": "ص"
+            },
+            {
+              "label": "ث"
+            },
+            {
+              "label": "ق"
+            },
+            {
+              "label": "ف"
+            },
+            {
+              "label": "غ"
+            },
+            {
+              "label": "ع"
+            },
+            {
+              "label": "ه"
+            },
+            {
+              "label": "خ"
+            },
+            {
+              "label": "ح"
+            },
+            {
+              "label": "ج"
+            },
+            {
+              "label": "د"
+            }
+          ],
+          [
+            {
+              "label": "ش"
+            },
+            {
+              "label": "س"
+            },
+            {
+              "label": "ي"
+            },
+            {
+              "label": "ب"
+            },
+            {
+              "label": "ل"
+            },
+            {
+              "label": "ا"
+            },
+            {
+              "label": "ت"
+            },
+            {
+              "label": "ن"
+            },
+            {
+              "label": "م"
+            },
+            {
+              "label": "ك"
+            },
+            {
+              "label": "ط"
+            }
+          ],
+          [
+            {
+              "label": "ئ"
+            },
+            {
+              "label": "ء"
+            },
+            {
+              "label": "ؤ"
+            },
+            {
+              "label": "ر"
+            },
+            {
+              "label": "لا",
+              "output": "لا"
+            },
+            {
+              "label": "ى"
+            },
+            {
+              "label": "ة"
+            },
+            {
+              "label": "و"
+            },
+            {
+              "label": "ز"
+            },
+            {
+              "label": "ظ"
+            },
+            {
+              "label": "⌫",
+              "action": {
+                "type": "delete"
+              },
+              "width": 1.25
+            }
+          ],
+          [
+            {
+              "label": "?123",
+              "action": {
+                "type": "symbols"
+              },
+              "width": 1.25
+            },
+            {
+              "label": "،",
+              "width": 0.9
+            },
+            {
+              "label": "🌐",
+              "action": {
+                "type": "language_switch"
+              },
+              "width": 0.9
+            },
+            {
+              "label": "العربية",
+              "action": {
+                "type": "space"
+              },
+              "width": 5.7
+            },
+            {
+              "label": "؟",
+              "longPress": [
+                "!",
+                "."
+              ],
+              "width": 0.9
+            },
+            {
+              "label": "↵",
+              "action": {
+                "type": "enter"
+              },
+              "width": 1.35
+            }
+          ]
+        ]
+      }
+    }
+  }
+}
