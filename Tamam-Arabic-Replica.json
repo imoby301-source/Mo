@@ -1,0 +1,502 @@
+{
+  "format": "wmkeyboard-layout",
+  "version": 1,
+  "layout": {
+    "id": "tamam_arabic_replica",
+    "name": "Tamam Arabic Replica",
+    "langId": "ar",
+    "version": 1,
+    "tabletExpand": false,
+    "layers": {
+      "letters": {
+        "rows": [
+          [
+            {
+              "label": "ض"
+            },
+            {
+              "label": "ص"
+            },
+            {
+              "label": "ث"
+            },
+            {
+              "label": "ق"
+            },
+            {
+              "label": "ف"
+            },
+            {
+              "label": "غ"
+            },
+            {
+              "label": "ع"
+            },
+            {
+              "label": "ه"
+            },
+            {
+              "label": "خ"
+            },
+            {
+              "label": "ح"
+            },
+            {
+              "label": "ج"
+            }
+          ],
+          [
+            {
+              "label": "ش"
+            },
+            {
+              "label": "س"
+            },
+            {
+              "label": "ي"
+            },
+            {
+              "label": "ب"
+            },
+            {
+              "label": "ل"
+            },
+            {
+              "label": "ا"
+            },
+            {
+              "label": "ت"
+            },
+            {
+              "label": "ن"
+            },
+            {
+              "label": "م"
+            },
+            {
+              "label": "ك"
+            },
+            {
+              "label": "ط"
+            }
+          ],
+          [
+            {
+              "label": "ذ"
+            },
+            {
+              "label": "ء"
+            },
+            {
+              "label": "ؤ"
+            },
+            {
+              "label": "ر"
+            },
+            {
+              "label": "ى"
+            },
+            {
+              "label": "ة"
+            },
+            {
+              "label": "و"
+            },
+            {
+              "label": "ز"
+            },
+            {
+              "label": "د"
+            },
+            {
+              "label": "ظ"
+            },
+            {
+              "label": "⌫",
+              "action": {
+                "type": "delete"
+              },
+              "width": 1.35
+            }
+          ],
+          [
+            {
+              "label": "@#!",
+              "action": {
+                "type": "symbols"
+              },
+              "width": 1.35
+            },
+            {
+              "label": "123",
+              "action": {
+                "type": "symbols"
+              },
+              "width": 1.05
+            },
+            {
+              "label": ",",
+              "width": 0.8,
+              "role": "Comma",
+              "longPress": [
+                "!",
+                "؟"
+              ]
+            },
+            {
+              "label": "🌐",
+              "action": {
+                "type": "language_switch"
+              },
+              "width": 1.0
+            },
+            {
+              "label": " ",
+              "action": {
+                "type": "space"
+              },
+              "width": 3.2
+            },
+            {
+              "label": "🎙",
+              "action": {
+                "type": "tool",
+                "tool": "VOICE"
+              },
+              "width": 1.0
+            },
+            {
+              "label": ".",
+              "width": 0.8,
+              "role": "Period",
+              "longPress": [
+                "…",
+                "؟",
+                "!"
+              ]
+            },
+            {
+              "label": "↵",
+              "action": {
+                "type": "enter"
+              },
+              "width": 1.2
+            }
+          ]
+        ]
+      },
+      "symbols": {
+        "rows": [
+          [
+            {
+              "label": "١",
+              "longPress": [
+                "½",
+                "⅓",
+                "¼",
+                "⅕",
+                "⅙",
+                "⅛",
+                "⅔",
+                "⅖",
+                "¾",
+                "⅗",
+                "⅘",
+                "⅚",
+                "⅝",
+                "⅞"
+              ]
+            },
+            {
+              "label": "٢",
+              "longPress": []
+            },
+            {
+              "label": "٣",
+              "longPress": []
+            },
+            {
+              "label": "٤",
+              "longPress": []
+            },
+            {
+              "label": "٥",
+              "longPress": []
+            },
+            {
+              "label": "٦",
+              "longPress": []
+            },
+            {
+              "label": "٧",
+              "longPress": []
+            },
+            {
+              "label": "٨",
+              "longPress": []
+            },
+            {
+              "label": "٩",
+              "longPress": []
+            },
+            {
+              "label": "٠",
+              "longPress": []
+            }
+          ],
+          [
+            {
+              "label": "@"
+            },
+            {
+              "label": "#"
+            },
+            {
+              "label": "$"
+            },
+            {
+              "label": "%"
+            },
+            {
+              "label": "&"
+            },
+            {
+              "label": "-"
+            },
+            {
+              "label": "_"
+            },
+            {
+              "label": "+"
+            },
+            {
+              "label": "("
+            },
+            {
+              "label": ")"
+            }
+          ],
+          [
+            {
+              "label": "*"
+            },
+            {
+              "label": "\""
+            },
+            {
+              "label": "'"
+            },
+            {
+              "label": ":"
+            },
+            {
+              "label": ";"
+            },
+            {
+              "label": "!"
+            },
+            {
+              "label": "؟"
+            },
+            {
+              "label": "،"
+            },
+            {
+              "label": "."
+            },
+            {
+              "label": "⌫",
+              "action": {
+                "type": "delete"
+              },
+              "width": 1.25
+            }
+          ],
+          [
+            {
+              "label": "ABC",
+              "action": {
+                "type": "letters"
+              },
+              "width": 1.2
+            },
+            {
+              "label": ",",
+              "role": "Comma"
+            },
+            {
+              "label": " ",
+              "action": {
+                "type": "space"
+              },
+              "width": 3.4
+            },
+            {
+              "label": "🎙",
+              "action": {
+                "type": "tool",
+                "tool": "VOICE"
+              },
+              "width": 1.0
+            },
+            {
+              "label": ".",
+              "role": "Period"
+            },
+            {
+              "label": "↵",
+              "action": {
+                "type": "enter"
+              },
+              "width": 1.2
+            }
+          ]
+        ],
+        "bottomRowAsLaidOut": true
+      },
+      "symbols2": {
+        "rows": [
+          [
+            {
+              "label": "~"
+            },
+            {
+              "label": "`"
+            },
+            {
+              "label": "|"
+            },
+            {
+              "label": "{"
+            },
+            {
+              "label": "}"
+            },
+            {
+              "label": "["
+            },
+            {
+              "label": "]"
+            },
+            {
+              "label": "\\"
+            },
+            {
+              "label": "/"
+            },
+            {
+              "label": "<"
+            },
+            {
+              "label": ">"
+            }
+          ],
+          [
+            {
+              "label": "£"
+            },
+            {
+              "label": "¥"
+            },
+            {
+              "label": "₩"
+            },
+            {
+              "label": "฿"
+            },
+            {
+              "label": "₪"
+            },
+            {
+              "label": "€"
+            },
+            {
+              "label": "₫"
+            },
+            {
+              "label": "₱"
+            },
+            {
+              "label": "₮"
+            },
+            {
+              "label": "₴"
+            }
+          ],
+          [
+            {
+              "label": "¤"
+            },
+            {
+              "label": "¦"
+            },
+            {
+              "label": "§"
+            },
+            {
+              "label": "©"
+            },
+            {
+              "label": "®"
+            },
+            {
+              "label": "™"
+            },
+            {
+              "label": "°"
+            },
+            {
+              "label": "±"
+            },
+            {
+              "label": "÷"
+            },
+            {
+              "label": "×"
+            }
+          ],
+          [
+            {
+              "label": "ABC",
+              "action": {
+                "type": "letters"
+              },
+              "width": 1.2
+            },
+            {
+              "label": ",",
+              "role": "Comma"
+            },
+            {
+              "label": " ",
+              "action": {
+                "type": "space"
+              },
+              "width": 3.4
+            },
+            {
+              "label": "🎙",
+              "action": {
+                "type": "tool",
+                "tool": "VOICE"
+              },
+              "width": 1.0
+            },
+            {
+              "label": ".",
+              "role": "Period"
+            },
+            {
+              "label": "↵",
+              "action": {
+                "type": "enter"
+              },
+              "width": 1.2
+            }
+          ]
+        ],
+        "bottomRowAsLaidOut": true
+      }
+    }
+  }
+}
